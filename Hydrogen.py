@@ -108,12 +108,3 @@ def with_diff_ini_cond(number_of_plots):
     plt.show()
 
 with_diff_ini_cond(5)
-
-
-# r,p,t = runge_kutta(-5, 1, 0, 10, 0.01)
-
-# plt.plot(t,r)
-# plt.plot(t,p)
-# plt.plot(r,p)
-# plt.legend(['r vs t', 'p vs t', 'p vs r'])
-# plt.show()
