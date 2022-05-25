@@ -4,7 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
         
+# Two particle in a Harmonic potential and interaction between them is given by Lennard-Jones potential.
+# Two particle system reduced to one partice system.
+# Here particle mass is reduced mass.
+
 class HP_LJ:
+
     def __init__(self, **kwargs):
         self.omega = kwargs['omega']
         self.A = kwargs['A']
